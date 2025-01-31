@@ -8,7 +8,7 @@ Created January 2025.
 
 ## Description
 
-This is an unofficial LaTeX template for King's College London PhD Thesis submissions which is modified from several sources inlcuding: [Bo Gao's](https://www.overleaf.com/latex/templates/phd-thesis-template-for-kings-college-london/ftmpffzrydpq), [Andre Miede's](https://www.overleaf.com/latex/templates/classic-thesis-style-v4-dot-2-by-andre-miede/dwgtvykzvdtk) and [Clara Eleonore Pavillet](https://www.overleaf.com/latex/templates/thesis-template-oxfordpav/fhwkjvtwpdzt). 
+This is an unofficial LaTeX template for King's College London PhD Thesis submissions which is modified from several sources inlcuding: [Bo Gao](https://www.overleaf.com/latex/templates/phd-thesis-template-for-kings-college-london/ftmpffzrydpq), [Andre Miede](https://www.overleaf.com/latex/templates/classic-thesis-style-v4-dot-2-by-andre-miede/dwgtvykzvdtk) and [Clara Eleonore Pavillet](https://www.overleaf.com/latex/templates/thesis-template-oxfordpav/fhwkjvtwpdzt). 
 
 This LaTeX thesis template is designed to be clear but basic, extendable and customisable.
 
