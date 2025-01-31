@@ -2,9 +2,7 @@
 
 ## License
 
-Creative Commons CC.
-
-Created January 2025.
+Creative Commons CC. Created January 2025.
 
 ## Description
 
