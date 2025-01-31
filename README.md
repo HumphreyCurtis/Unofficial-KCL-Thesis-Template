@@ -36,7 +36,7 @@ personal.bib -- For list of personal publications.
 
 Written by Humphrey Curtis.
 
-Supported by suggestions from Yazz Warsame, Benjamin Krarup and Alexandred Nevsky.
+Supported by suggestions from Yazz Warsame, Benjamin Krarup and Alexandre Nevsky.
 
 ## Testing
 
