@@ -1,0 +1,108 @@
+% Author: Humphrey Curtis
+% Version: 1.0
+% This work is licensed under a Creative Commons Attribution International License.
+
+\documentclass[12pt, a4paper]{report}
+\input{packages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define acronyms
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeglossaries
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+\newacronym{lcm}{LCM}{Least Common Multiple}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define personal publication Bib
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcites{personal}{List of publications}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Page for Thesis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\begin{center}
+\begin{flushright}
+\includegraphics[scale=0.4]{FrontMatter/logo.png}\\
+\end{flushright}
+\vspace*{2in}
+\huge{\textbf{Thesis Title}}\\
+\vspace*{0.4in}
+\Large{\textbf{Author's Name}}\\
+\Large{Supervisor's Name}\\
+\vspace*{0.4in}
+King's College London\\
+Department of Informatics\\
+\vspace*{0.4in}
+A dissertation is submitted for the degree of\\
+\textit{Doctor of Philosophy}\\
+\vspace*{0.2in}
+\today\\
+\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Front Matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{FrontMatter/declaration}
+\include{FrontMatter/dedication}
+\include{FrontMatter/abstract}
+\include{FrontMatter/acronyms}
+\include{FrontMatter/acknowledgements}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Personal publications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nocitepersonal{*}
+\bibliographystylepersonal{acm}
+\bibliographypersonal{personal}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of Contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\clearpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\clearpage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis Chapters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{Chapters/chapter-1/chapter-1}
+\include{Chapters/chapter-2/chapter-2}
+\include{Chapters/chapter-3/chapter-3}
+\include{Chapters/chapter-4/chapter-4}
+\include{Chapters/chapter-5/chapter-5}
+\include{Chapters/chapter-6/chapter-6}
+\include{Chapters/chapter-7/chapter-7}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \renewcommand{\bibname}{Bibliography}
+\bibliographystyle{acm}
+\bibliography{references}
+\addcontentsline{toc}{chapter}{Bibliography}
+
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{references}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\include{Appendices/appendix-1}
+\include{Appendices/appendix-2}
+
+\end{document}
